@@ -1,0 +1,15 @@
+[t5]
+FileName1=t5.txt
+URL1=http://101.200.120.41:12306/getBook
+Total=3
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_5.xml
+FileName2=t5_success.txt
+URL2=http://detectportal.firefox.com/success.txt
+FileName3=t5_check_session.txt
+URL3=http://101.200.120.41:12306/login/check_session
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t27]
+FileName1=t27.txt
+URL1=http://101.200.120.41:12333/purchase/add_to_cart
+Total=2
+RequestHeaderFile=t27_RequestHeader.txt
+RequestBodyFile=t27_RequestBody.txt
+ResponseHeaderFile=t27_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_27.xml
+FileName2=t27_check_session.txt
+URL2=http://101.200.120.41:12333/login/check_session
+[ProtocolInfo]
+ProtocolId=QTWeb

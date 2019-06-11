@@ -1,0 +1,98 @@
+Virtual User Script started at: 2019/6/10 18:55:45
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (8ÔÂ 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\Proj\SoftwareTest\BookstoreTest\BookstoreTest_VuGen\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_add_header("DNT") started  	[MsgId: MMSG-26355]
+Action.c(6): web_add_header("DNT") was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_add_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(9): web_add_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(12): Notify: Transaction "S01_T01_HomePage" started.
+Action.c(15): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(15): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(24): web_url("101.200.120.41:12333") started  	[MsgId: MMSG-26355]
+Action.c(24): Found resource "https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" in HTML "http://101.200.120.41:12333/"  	[MsgId: MMSG-26659]
+Action.c(24): Found resource "http://101.200.120.41:12333/static/css/main.3dca8ff8.css" in HTML "http://101.200.120.41:12333/"  	[MsgId: MMSG-26659]
+Action.c(24): Found resource "http://101.200.120.41:12333/static/js/main.e99e4d8f.js" in HTML "http://101.200.120.41:12333/"  	[MsgId: MMSG-26659]
+Action.c(24): Downloading resource "http://adu.g-fox.cn/adu.gif?channelid=stub.firefox.com.cn&fxversion=67.0.1&ceversion=2019.5&ver=2_2&pk=%7B3cb3755e-57ca-40f3-b991-89fc78f0b519%7D&uk=%7Bc4f76ad7-cf4f-4d87-905a-e32fa1f6c70c%7D&cehome=true&locale=zh-CN&age=4&default=false&defaultHttp=false&flash=&tracking=2&now=1560159930064" (specified by argument number 9)  	[MsgId: MMSG-26577]
+Action.c(24): Downloading resource "http://101.200.120.41:12333/login/check_session" (specified by argument number 12)  	[MsgId: MMSG-26577]
+Action.c(24): Downloading resource "http://detectportal.firefox.com/success.txt" (specified by argument number 14)  	[MsgId: MMSG-26577]
+Action.c(24): Downloading resource "http://101.200.120.41:12333/static/media/csapp.353e1ee5.png" (specified by argument number 17)  	[MsgId: MMSG-26577]
+Action.c(24): web_url("101.200.120.41:12333") was successful, 923302 body bytes, 2044 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(38): web_add_auto_header("X-Requested-With") started  	[MsgId: MMSG-26355]
+Action.c(38): web_add_auto_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
+Action.c(41): Notify: Transaction "S01_T01_HomePage" ended with a "Pass" status (Duration: 6.1746 Wasted Time: 0.3400).
+Action.c(45): Notify: Transaction "S01_T02_LogIn" started.
+Action.c(47): web_submit_data("check") started  	[MsgId: MMSG-26355]
+Action.c(47): Downloading resource "http://101.200.120.41:12333/login/check_session" (specified by argument number 16)  	[MsgId: MMSG-26577]
+Action.c(47): web_submit_data("check") was successful, 39 body bytes, 227 header bytes  	[MsgId: MMSG-26386]
+Action.c(61): Notify: Transaction "S01_T02_LogIn" ended with a "Pass" status (Duration: 0.1957 Wasted Time: 0.0316).
+Action.c(63): Notify: Transaction "S01_T03_BookList" started.
+Action.c(65): web_custom_request("getBook") started  	[MsgId: MMSG-26355]
+Action.c(65): Downloading resource "http://101.200.120.41:12333/login/check_session" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(65): web_custom_request("getBook") was successful, 522 body bytes, 228 header bytes  	[MsgId: MMSG-26386]
+Action.c(78): Notify: Transaction "S01_T03_BookList" ended with a "Pass" status (Duration: 0.1425 Wasted Time: 0.0238).
+Action.c(80): Notify: Transaction "S01_T04_OneBookInfo" started.
+Action.c(82): web_custom_request("getBook_2") started  	[MsgId: MMSG-26355]
+Action.c(82): web_custom_request("getBook_2") was successful, 515 body bytes, 115 header bytes  	[MsgId: MMSG-26386]
+Action.c(93): web_submit_data("get_comment") started  	[MsgId: MMSG-26355]
+Action.c(93): web_submit_data("get_comment") was successful, 23 body bytes, 114 header bytes  	[MsgId: MMSG-26386]
+Action.c(104): Notify: Transaction "S01_T04_OneBookInfo" ended with a "Pass" status (Duration: 0.5555 Wasted Time: 0.0415).
+Action.c(106): Notify: Transaction "S01_T05_AddToCart" started.
+Action.c(108): web_submit_data("add_to_cart") started  	[MsgId: MMSG-26355]
+Action.c(108): Downloading resource "http://101.200.120.41:12333/login/check_session" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(108): web_submit_data("add_to_cart") was successful, 14 body bytes, 226 header bytes  	[MsgId: MMSG-26386]
+Action.c(121): Notify: Transaction "S01_T05_AddToCart" ended with a "Pass" status (Duration: 0.1641 Wasted Time: 0.0204).
+Action.c(123): Notify: Transaction "S01_T06_BookList" started.
+Action.c(125): web_custom_request("getBook_3") started  	[MsgId: MMSG-26355]
+Action.c(125): Downloading resource "http://101.200.120.41:12333/login/check_session" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(125): web_custom_request("getBook_3") was successful, 522 body bytes, 228 header bytes  	[MsgId: MMSG-26386]
+Action.c(138): Notify: Transaction "S01_T06_BookList" ended with a "Pass" status (Duration: 0.1544 Wasted Time: 0.0250).
+Action.c(140): Notify: Transaction "S01_T07_AnotherBookInfo" started.
+Action.c(142): web_custom_request("getBook_4") started  	[MsgId: MMSG-26355]
+Action.c(142): web_custom_request("getBook_4") was successful, 515 body bytes, 115 header bytes  	[MsgId: MMSG-26386]
+Action.c(153): web_submit_data("get_comment_2") started  	[MsgId: MMSG-26355]
+Action.c(153): web_submit_data("get_comment_2") was successful, 23 body bytes, 114 header bytes  	[MsgId: MMSG-26386]
+Action.c(164): Notify: Transaction "S01_T07_AnotherBookInfo" ended with a "Pass" status (Duration: 0.1785 Wasted Time: 0.0449).
+Action.c(166): Notify: Transaction "S01_T08_AddToCart" started.
+Action.c(168): web_submit_data("add_to_cart_2") started  	[MsgId: MMSG-26355]
+Action.c(168): Downloading resource "http://101.200.120.41:12333/login/check_session" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(168): web_submit_data("add_to_cart_2") was successful, 14 body bytes, 226 header bytes  	[MsgId: MMSG-26386]
+Action.c(181): Notify: Transaction "S01_T08_AddToCart" ended with a "Pass" status (Duration: 0.1622 Wasted Time: 0.0203).
+Action.c(183): Notify: Transaction "S01_T09_Cart" started.
+Action.c(185): web_custom_request("fetch_cart") started  	[MsgId: MMSG-26355]
+Action.c(185): web_custom_request("fetch_cart") was successful, 222 body bytes, 115 header bytes  	[MsgId: MMSG-26386]
+Action.c(196): Notify: Transaction "S01_T09_Cart" ended with a "Pass" status (Duration: 0.1106 Wasted Time: 0.0211).
+Action.c(198): Notify: Transaction "S01_T10_CreateIndent" started.
+Action.c(200): web_custom_request("create_indent") started  	[MsgId: MMSG-26355]
+Action.c(200): Downloading resource "http://101.200.120.41:12333/login/check_session" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(200): web_custom_request("create_indent") was successful, 14 body bytes, 226 header bytes  	[MsgId: MMSG-26386]
+Action.c(213): Notify: Transaction "S01_T10_CreateIndent" ended with a "Pass" status (Duration: 0.2150 Wasted Time: 0.0574).
+Action.c(215): Notify: Transaction "S01_T11_FetchIndents" started.
+Action.c(217): web_submit_data("fetch_indents") started  	[MsgId: MMSG-26355]
+Action.c(217): Downloading resource "http://101.200.120.41:12333/login/check_session" (specified by argument number 19)  	[MsgId: MMSG-26577]
+Action.c(217): web_submit_data("fetch_indents") was successful, 1998 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(232): Notify: Transaction "S01_T11_FetchIndents" ended with a "Pass" status (Duration: 0.2468 Wasted Time: 0.0271).
+Action.c(234): Notify: Transaction "S01_T12_UserInfo" started.
+Action.c(236): web_submit_data("getinfo") started  	[MsgId: MMSG-26355]
+Action.c(236): web_submit_data("getinfo") was successful, 77 body bytes, 114 header bytes  	[MsgId: MMSG-26386]
+Action.c(247): Notify: Transaction "S01_T12_UserInfo" ended with a "Pass" status (Duration: 0.1046 Wasted Time: 0.0211).
+Action.c(249): Notify: Transaction "S01_T13_LogOut" started.
+Action.c(251): web_url("logout") started  	[MsgId: MMSG-26355]
+Action.c(251): Downloading resource "http://detectportal.firefox.com/success.txt" (specified by argument number 8)  	[MsgId: MMSG-26577]
+Action.c(251): web_url("logout") was successful, 8 body bytes, 449 header bytes  	[MsgId: MMSG-26386]
+Action.c(261): Notify: Transaction "S01_T13_LogOut" ended with a "Pass" status (Duration: 0.2476 Wasted Time: 0.0262).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

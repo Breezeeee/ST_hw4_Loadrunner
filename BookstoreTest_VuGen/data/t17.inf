@@ -1,0 +1,13 @@
+[t17]
+FileName1=t17_logout.html
+URL1=http://101.200.120.41:12306/login/logout
+Total=2
+ContentType=text/plain
+SnapshotXmlFile=snapshot_17.xml
+RequestHeaderFile=t17_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t17_ResponseHeader.txt
+FileName2=t17_check_session.txt
+URL2=http://101.200.120.41:12306/login/check_session
+[ProtocolInfo]
+ProtocolId=QTWeb

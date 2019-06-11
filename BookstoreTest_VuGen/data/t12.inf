@@ -1,0 +1,13 @@
+[t12]
+FileName1=t12.txt
+URL1=http://101.200.120.41:12306/purchase/add_to_cart
+Total=2
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=t12_RequestBody.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_12.xml
+FileName2=t12_check_session.txt
+URL2=http://101.200.120.41:12306/login/check_session
+[ProtocolInfo]
+ProtocolId=QTWeb

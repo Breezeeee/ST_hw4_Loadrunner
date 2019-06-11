@@ -1,0 +1,15 @@
+[t4]
+FileName1=t4.txt
+URL1=http://101.200.120.41:12306/login/check
+Total=3
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=t4_RequestBody.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_4.xml
+FileName2=t4_check_session.txt
+URL2=http://101.200.120.41:12306/login/check_session
+FileName3=t4_check_session.txt
+URL3=http://101.200.120.41:12306/login/check_session
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t30]
+FileName1=t30.txt
+URL1=http://101.200.120.41:12333/fetch_indents
+Total=2
+RequestHeaderFile=t30_RequestHeader.txt
+RequestBodyFile=t30_RequestBody.txt
+ResponseHeaderFile=t30_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_30.xml
+FileName2=t30_check_session.txt
+URL2=http://101.200.120.41:12333/login/check_session
+[ProtocolInfo]
+ProtocolId=QTWeb

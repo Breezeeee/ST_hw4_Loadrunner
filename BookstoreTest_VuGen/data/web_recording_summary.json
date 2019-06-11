@@ -1,0 +1,485 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "pragma",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "dnt",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/x-icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 7,
+    "RecordedBrowser": "Firefox",
+    "RecordingDate": "6月-05-2019",
+    "RecordingDuration": 134312,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1559754123,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 911723,
+    "TotalBytesSent": 16403,
+    "TotalRequests": 38,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "g-fox.cn",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "39.107.233.151",
+          "IncludeInScript": true,
+          "Name": "adu.g-fox.cn",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/gif",
+              "DownloadTime": 78,
+              "EventId": 1016,
+              "HttpStatus": 200,
+              "Size": 800,
+              "URL": "http://adu.g-fox.cn/adu.gif?channelid=stub.firefox.com.cn&fxversion=67.0.1&ceversion=2019.5&ver=2_2&pk=%7B3cb3755e-57ca-40f3-b991-89fc78f0b519%7D&uk=%7Bc4f76ad7-cf4f-4d87-905a-e32fa1f6c70c%7D&cehome=true&locale=zh-CN&age=4&default=false&defaultHttp=false&flash=&tracking=2&now=1560159930064"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "firefox.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "104.80.89.42",
+          "IncludeInScript": true,
+          "Name": "detectportal.firefox.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 343,
+              "EventId": 1714,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 359,
+              "EventId": 1628,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 437,
+              "EventId": 1607,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 312,
+              "EventId": 1594,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 219,
+              "EventId": 1575,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 250,
+              "EventId": 1517,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 250,
+              "EventId": 1368,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "101.200.120.41",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "101.200.120.41",
+          "IncludeInScript": true,
+          "Name": "101.200.120.41",
+          "Port": 12333,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 1704,
+              "HttpStatus": 200,
+              "Size": 7,
+              "URL": "http://101.200.120.41:12333/login/check_session"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 156,
+              "EventId": 1698,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://101.200.120.41:12333/login/logout"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 1688,
+              "HttpStatus": 200,
+              "Size": 77,
+              "URL": "http://101.200.120.41:12333/profile/getinfo"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 1686,
+              "HttpStatus": 200,
+              "Size": 7,
+              "URL": "http://101.200.120.41:12333/login/check_session"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 313,
+              "EventId": 1680,
+              "HttpStatus": 200,
+              "Size": 1742,
+              "URL": "http://101.200.120.41:12333/fetch_indents"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 1678,
+              "HttpStatus": 200,
+              "Size": 7,
+              "URL": "http://101.200.120.41:12333/login/check_session"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 109,
+              "EventId": 1676,
+              "HttpStatus": 200,
+              "Size": 7,
+              "URL": "http://101.200.120.41:12333/purchase/create_indent"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 109,
+              "EventId": 1673,
+              "HttpStatus": 200,
+              "Size": 222,
+              "URL": "http://101.200.120.41:12333/purchase/fetch_cart"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 1671,
+              "HttpStatus": 200,
+              "Size": 7,
+              "URL": "http://101.200.120.41:12333/login/check_session"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 1666,
+              "HttpStatus": 200,
+              "Size": 7,
+              "URL": "http://101.200.120.41:12333/purchase/add_to_cart"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 1664,
+              "HttpStatus": 200,
+              "Size": 23,
+              "URL": "http://101.200.120.41:12333/purchase/get_comment"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 1662,
+              "HttpStatus": 200,
+              "Size": 515,
+              "URL": "http://101.200.120.41:12333/getBook"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 157,
+              "EventId": 1660,
+              "HttpStatus": 200,
+              "Size": 7,
+              "URL": "http://101.200.120.41:12333/login/check_session"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 1658,
+              "HttpStatus": 200,
+              "Size": 515,
+              "URL": "http://101.200.120.41:12333/getBook"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 62,
+              "EventId": 1656,
+              "HttpStatus": 200,
+              "Size": 7,
+              "URL": "http://101.200.120.41:12333/login/check_session"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 1651,
+              "HttpStatus": 200,
+              "Size": 7,
+              "URL": "http://101.200.120.41:12333/purchase/add_to_cart"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 1649,
+              "HttpStatus": 200,
+              "Size": 23,
+              "URL": "http://101.200.120.41:12333/purchase/get_comment"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 1647,
+              "HttpStatus": 200,
+              "Size": 515,
+              "URL": "http://101.200.120.41:12333/getBook"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 1645,
+              "HttpStatus": 200,
+              "Size": 7,
+              "URL": "http://101.200.120.41:12333/login/check_session"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 79,
+              "EventId": 1643,
+              "HttpStatus": 200,
+              "Size": 515,
+              "URL": "http://101.200.120.41:12333/getBook"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 62,
+              "EventId": 1641,
+              "HttpStatus": 200,
+              "Size": 7,
+              "URL": "http://101.200.120.41:12333/login/check_session"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 187,
+              "EventId": 1637,
+              "HttpStatus": 200,
+              "Size": 7,
+              "URL": "http://101.200.120.41:12333/login/check_session"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 93,
+              "EventId": 1635,
+              "HttpStatus": 200,
+              "Size": 32,
+              "URL": "http://101.200.120.41:12333/login/check"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 1632,
+              "HttpStatus": 200,
+              "Size": 7,
+              "URL": "http://101.200.120.41:12333/login/check_session"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 1399,
+              "HttpStatus": 200,
+              "Size": 296541,
+              "URL": "http://101.200.120.41:12333/static/media/csapp.353e1ee5.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 1362,
+              "HttpStatus": 200,
+              "Size": 7,
+              "URL": "http://101.200.120.41:12333/login/check_session"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 78,
+              "EventId": 1256,
+              "HttpStatus": 200,
+              "Size": 3870,
+              "URL": "http://101.200.120.41:12333/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 79,
+              "EventId": 1042,
+              "HttpStatus": 200,
+              "Size": 599468,
+              "URL": "http://101.200.120.41:12333/static/js/main.e99e4d8f.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 78,
+              "EventId": 977,
+              "HttpStatus": 200,
+              "Size": 5962,
+              "URL": "http://101.200.120.41:12333/static/css/main.3dca8ff8.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 916,
+              "HttpStatus": 200,
+              "Size": 749,
+              "URL": "http://101.200.120.41:12333/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 1
+}

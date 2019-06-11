@@ -1,0 +1,15 @@
+[t32]
+FileName1=t32_logout.html
+URL1=http://101.200.120.41:12333/login/logout
+Total=3
+ContentType=text/plain
+SnapshotXmlFile=snapshot_32.xml
+RequestHeaderFile=t32_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t32_ResponseHeader.txt
+FileName2=t32_check_session.txt
+URL2=http://101.200.120.41:12333/login/check_session
+FileName3=t32_success.txt
+URL3=http://detectportal.firefox.com/success.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t28]
+FileName1=t28.txt
+URL1=http://101.200.120.41:12333/purchase/fetch_cart
+Total=1
+RequestHeaderFile=t28_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t28_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_28.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

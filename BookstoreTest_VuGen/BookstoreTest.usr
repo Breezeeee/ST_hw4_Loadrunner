@@ -1,0 +1,73 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=BookstoreTest.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=60
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.60.0.971
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.60.0.971
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=zh-CN
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="S01_T01_HomePage__*delimiter*__S01_T02_LogIn__*delimiter*__S01_T03_BookList__*delimiter*__S01_T04_OneBookInfo__*delimiter*__S01_T05_AddToCart__*delimiter*__S01_T06_BookList__*delimiter*__S01_T07_AnotherBookInfo__*delimiter*__S01_T08_AddToCart__*delimiter*__S01_T09_Cart__*delimiter*__S01_T10_CreateIndent__*delimiter*__S01_T11_FetchIndents__*delimiter*__S01_T12_UserInfo__*delimiter*__S01_T13_LogOut"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+S01_T01_HomePage=
+S01_T02_LogIn=
+S01_T03_BookList=
+S01_T04_OneBookInfo=
+S01_T05_AddToCart=
+S01_T06_BookList=
+S01_T07_AnotherBookInfo=
+S01_T08_AddToCart=
+S01_T09_Cart=
+S01_T10_CreateIndent=
+S01_T11_FetchIndents=
+S01_T12_UserInfo=
+S01_T13_LogOut=

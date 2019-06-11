@@ -1,0 +1,13 @@
+[t23]
+FileName1=t23.txt
+URL1=http://101.200.120.41:12333/purchase/add_to_cart
+Total=2
+RequestHeaderFile=t23_RequestHeader.txt
+RequestBodyFile=t23_RequestBody.txt
+ResponseHeaderFile=t23_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_23.xml
+FileName2=t23_check_session.txt
+URL2=http://101.200.120.41:12333/login/check_session
+[ProtocolInfo]
+ProtocolId=QTWeb

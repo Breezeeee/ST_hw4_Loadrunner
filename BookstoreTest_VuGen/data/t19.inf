@@ -1,0 +1,15 @@
+[t19]
+FileName1=t19.txt
+URL1=http://101.200.120.41:12333/login/check
+Total=3
+RequestHeaderFile=t19_RequestHeader.txt
+RequestBodyFile=t19_RequestBody.txt
+ResponseHeaderFile=t19_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_19.xml
+FileName2=t19_check_session.txt
+URL2=http://101.200.120.41:12333/login/check_session
+FileName3=t19_check_session.txt
+URL3=http://101.200.120.41:12333/login/check_session
+[ProtocolInfo]
+ProtocolId=QTWeb

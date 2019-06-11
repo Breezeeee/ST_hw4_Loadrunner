@@ -1,0 +1,190 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: 101.200.120.41:12333",
+                "infFile": "t2.inf",
+                "time": 1560164151657
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: check",
+                "infFile": "t3.inf",
+                "time": 1560164151864
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: getBook",
+                "infFile": "t4.inf",
+                "time": 1560164152009
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: getBook_2",
+                "infFile": "t5.inf",
+                "time": 1560164152471
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: get_comment",
+                "infFile": "t6.inf",
+                "time": 1560164152567
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: add_to_cart",
+                "infFile": "t7.inf",
+                "time": 1560164152733
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: getBook_3",
+                "infFile": "t8.inf",
+                "time": 1560164152890
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: getBook_4",
+                "infFile": "t9.inf",
+                "time": 1560164152981
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: get_comment_2",
+                "infFile": "t10.inf",
+                "time": 1560164153070
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Data: add_to_cart_2",
+                "infFile": "t11.inf",
+                "time": 1560164153235
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Custom Request: fetch_cart",
+                "infFile": "t12.inf",
+                "time": 1560164153348
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Custom Request: create_indent",
+                "infFile": "t13.inf",
+                "time": 1560164153565
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Submit Data: fetch_indents",
+                "infFile": "t14.inf",
+                "time": 1560164153813
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Submit Data: getinfo",
+                "infFile": "t15.inf",
+                "time": 1560164153920
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: logout",
+                "infFile": "t16.inf",
+                "time": 1560164154170
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "S01_T01_HomePage",
+                "rawStartTime": 1560164145492,
+                "rawEndTime": 1560164151667,
+                "thinkTime": 0.0,
+                "wastedTime": 0.33997106552124026
+            },
+            {
+                "transactionName": "S01_T02_LogIn",
+                "rawStartTime": 1560164151671,
+                "rawEndTime": 1560164151866,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03155517578125
+            },
+            {
+                "transactionName": "S01_T03_BookList",
+                "rawStartTime": 1560164151868,
+                "rawEndTime": 1560164152011,
+                "thinkTime": 0.0,
+                "wastedTime": 0.023829936981201173
+            },
+            {
+                "transactionName": "S01_T04_OneBookInfo",
+                "rawStartTime": 1560164152013,
+                "rawEndTime": 1560164152569,
+                "thinkTime": 0.0,
+                "wastedTime": 0.041541099548339847
+            },
+            {
+                "transactionName": "S01_T05_AddToCart",
+                "rawStartTime": 1560164152571,
+                "rawEndTime": 1560164152735,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02039933204650879
+            },
+            {
+                "transactionName": "S01_T06_BookList",
+                "rawStartTime": 1560164152737,
+                "rawEndTime": 1560164152892,
+                "thinkTime": 0.0,
+                "wastedTime": 0.025037288665771486
+            },
+            {
+                "transactionName": "S01_T07_AnotherBookInfo",
+                "rawStartTime": 1560164152894,
+                "rawEndTime": 1560164153072,
+                "thinkTime": 0.0,
+                "wastedTime": 0.04491615295410156
+            },
+            {
+                "transactionName": "S01_T08_AddToCart",
+                "rawStartTime": 1560164153074,
+                "rawEndTime": 1560164153236,
+                "thinkTime": 0.0,
+                "wastedTime": 0.020303964614868165
+            },
+            {
+                "transactionName": "S01_T09_Cart",
+                "rawStartTime": 1560164153238,
+                "rawEndTime": 1560164153349,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02110767364501953
+            },
+            {
+                "transactionName": "S01_T10_CreateIndent",
+                "rawStartTime": 1560164153351,
+                "rawEndTime": 1560164153566,
+                "thinkTime": 0.0,
+                "wastedTime": 0.057376861572265628
+            },
+            {
+                "transactionName": "S01_T11_FetchIndents",
+                "rawStartTime": 1560164153568,
+                "rawEndTime": 1560164153815,
+                "thinkTime": 0.0,
+                "wastedTime": 0.027137279510498048
+            },
+            {
+                "transactionName": "S01_T12_UserInfo",
+                "rawStartTime": 1560164153817,
+                "rawEndTime": 1560164153922,
+                "thinkTime": 0.0,
+                "wastedTime": 0.021065950393676759
+            },
+            {
+                "transactionName": "S01_T13_LogOut",
+                "rawStartTime": 1560164153924,
+                "rawEndTime": 1560164154171,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02619147300720215
+            }
+        ]
+    }
+]

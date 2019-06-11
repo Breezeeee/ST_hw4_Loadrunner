@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Proj\SoftwareTest\BookstoreTest\BookstoreTest_VuGen
+-ID:\LoadRunner\LoadRunner\include
+-ed:\proj\softwaretest\bookstoretest\bookstoretest_vugen\\logfile.log
+d:\proj\softwaretest\bookstoretest\bookstoretest_vugen\\combined_BookstoreTest.c
+d:\proj\softwaretest\bookstoretest\bookstoretest_vugen\\pre_cci.c
